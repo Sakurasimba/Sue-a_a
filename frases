@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Motivadoras</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', serif;
+            background: url('https://drive.google.com/file/d/1VPTqktzZYko5heEEXk0elHXdA_uuqJlU/view?usp=drivesdk') no-repeat center center fixed;
+            background-size: cover;
+            color: #4B2E2E;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        #quote {
+            font-size: 2em;
+            margin: 20px;
+            color: #F5B7B1;
+        }
+        #time {
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #000;
+        }
+        #controls {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quote">"La mejor manera de predecir el futuro es inventarlo." - Alan Kay</div>
+    <div id="time"></div>
+    <div id="controls">
+        <label fo
